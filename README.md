@@ -12,7 +12,7 @@
 
 2.  **`englishPhrase.json`**
     *   包含短语、中文释义、中英文例句的 JSON 文件。
-    *   释义与例句由 Google Gemini 1.5 Flash LLM 生成。
+    *   释义与例句由 Google gemini-2.0-flash-lite 生成。
     *   **JSON 对象结构示例：**
         ```json
         {
