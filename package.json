@@ -1,0 +1,28 @@
+{
+  "name": "english-phrases-analyzer",
+  "version": "1.0.0",
+  "description": "处理英语短语并通过Gemini API获取中文释义和例句",
+  "main": "process-phrases.js",
+  "scripts": {
+    "start": "node scripts/collect_phrases.js"
+  },
+  "dependencies": {
+    "@google/genai": "^0.13.0",
+    "@google/generative-ai": "^0.24.1",
+    "better-sqlite3": "^11.10.0",
+    "dotenv": "^16.5.0",
+    "proxy-agent": "^6.5.0",
+    "socks-proxy-agent": "^7.0.0",
+    "undici": "^7.9.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "private": true,
+  "devDependencies": {
+    "@eslint/js": "^9.26.0",
+    "@eslint/json": "^0.12.0",
+    "eslint": "^9.26.0",
+    "globals": "^16.1.0"
+  }
+}
